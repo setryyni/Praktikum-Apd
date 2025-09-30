@@ -50,6 +50,5 @@
 # print(warna['warna1'])
 # print(warna['warna3'])
 
-nama = input ('masukan Nama Anda : ')
-print(nama)
-
+# nama = input ('masukan Nama Anda : ')
+# print(nama)
