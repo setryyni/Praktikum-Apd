@@ -1,22 +1,33 @@
 # for i in range(10):
 #     print(i + 1)
 
-# for i in range(1, 11, 2):
-#      print (i)
+# [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+# for i in range(1,11,2):
+#     print(i)
 
-# nama = ['bakil','diftya', 'anugrah']
-
+#for loop untuk list
+# nama = ['bakil', 'diftya', 'anugrah']
 # for i in nama:
 #     print(i)
 
-# for i in range(5):
-#     print("raffi")
+# for i in range(3):
+#     print("Raffi")
 
-# cuaca == 'hujan'
+# while loop
+# jawab = "ya"
+# hitung = 0
+
+# while (jawab == "ya"):
+#     hitung += 1
+#     jawab = input("ulang lagi? : ")
+
+# print(f"total jawab ya {hitung}")
+
+# cuaca = 'hujan'
 
 # while (cuaca == 'hujan' or cuaca == 'Hujan'):
 #     print("jangan keluar rumah")
-#     cuaca = input("apa cuaca saat ini: ")
+#     cuaca = input("apa cuaca saat ini :")
 
 # print("pergi keluar rumah")
 
@@ -24,15 +35,17 @@
 
 # while (angka > 1):
 #     print(angka)
-#     angka += 2
+#     angka -= 2
 
 # for i in range(1,5):
 #     for j in range(1,5):
 #         print(f"{i} x {j} = {i * j}")
+#     print()
 
+# break memberhentikan secara terpaksa, karna angkany terpenuhi maka program di hentikan
 # angka = [2, 5, 8, 12, 15, 7, 20]
 
-# print("Mencari angka yang lebih besar dari 10...")
+# print("mencari Angka yang lebih besar dari 10....")
 
 # for i in angka:
 #     print(f"memeriksa angka {i}")
@@ -40,23 +53,39 @@
 #         print(f"{i} lebih besar dari 10")
 #         break
 
-# print("Program selesai")
+# print("Program Selesai")
 
-# for i in range(1, 11):
-#     if i % 2 !=0:
+#continue
+# for i in range (1, 11):
+#     if i % 2 != 0:
 #         continue
-#     print(f"Angka genap ditemukan yaitu : {i}")
+#     print(f"Angka genap di temukan yaitu : {i}")
 
-# print("program selesai")
+# print("Program Selesai")
 
-# list comprehension
+# for i in range (1, 11):
+#     if i % 2 == 0:
+#         continue
+#     print(f"Angka di temukan yaitu : {i}")
 
-kuadrat = [i**2 for i in range (1,6)]
-print(kuadrat)
+# print("Program Selesai")
 
-angka_genap = [x for x in range(1, 11) if x % 2 == 0]
-print(angka_genap)
+# kuatdrat = [i**2 for i in range(1,6)]
+# print(kuatdrat)
 
-for x in range(1,11):
-    if x % 2 == 0 :
-        print(x)
+# angka_genap = [x for x in range(1,11) if x%2==0]
+# print(angka_genap)
+
+# angka_ganjil = [i for i in range(1,11) if i%2!=0]
+# print(angka_ganjil)
+
+# for i in range (1,6):
+#     print("*" * i)
+# print()
+# for i in range (1,6):
+#     print("*" * (6-i))
+
+# a = 5
+# for i in range (1,6):
+#     print(" " a +"*" * (2*i-1))
+#     a-=1
