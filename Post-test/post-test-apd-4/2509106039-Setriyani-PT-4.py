@@ -79,3 +79,4 @@ if login_berhasil:
 
 sleep(5)
 os.system('cls')
+os.system('cls')
